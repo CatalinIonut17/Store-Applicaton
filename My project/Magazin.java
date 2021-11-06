@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Magazin implements MagazinInterface{
-    public static Magazin SINGLETON;
+    private static Magazin SINGLETON;
     //int [] cabinaProba = new int [3];
     // int nrProduse; 
     //boolean ocupata;
