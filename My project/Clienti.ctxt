@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Clienti
+comment1.params=
+comment1.target=Clienti()
+comment2.params=
+comment2.target=java.lang.String\ getNume()
+comment2.text=Clienti(String\ nume,\ String\ prenume,\ boolean\ cardReducere){\r\n\ \ \ \ \ \ \ this.nume\ \=\ nume;\r\n\ \ \ \ \ \ \ this.prenume\ \=\ prenume;\r\n\ \ \ \ \ \ \ this.cardReducere\ \=\ cardReducere;\r\n}
+comment3.params=nume
+comment3.target=void\ setNume(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getPrenume()
+comment5.params=prenume
+comment5.target=void\ setPrenume(java.lang.String)
+comment6.params=
+comment6.target=boolean\ isCardReducere()
+comment7.params=cardReducere
+comment7.target=void\ setCardReducere(boolean)
+comment8.params=t
+comment8.target=double\ reducere(Tricouri)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Tricouri
+comment1.params=
+comment1.target=Tricouri()
+comment2.params=pret\ culoare
+comment2.target=Tricouri(double,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

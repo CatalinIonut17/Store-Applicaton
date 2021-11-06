@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.target=Magazin
+comment1.params=
+comment1.target=Magazin()
+comment10.params=
+comment10.target=void\ afiseazaTricouri()
+comment11.params=
+comment11.target=void\ afiseazaRochi()
+comment12.params=
+comment12.target=void\ afiseazaBlugi()
+comment13.params=p\ nume\ prenume
+comment13.target=void\ adaugaProdusePentruCumparator(Produse,\ java.lang.String,\ java.lang.String)
+comment14.params=nume\ prenume
+comment14.target=void\ afiseazaProduseClient(java.lang.String,\ java.lang.String)
+comment15.params=nume\ prenume
+comment15.target=void\ vizualizeazaSuma(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=Magazin\ getInstance()
+comment3.params=nrCabina
+comment3.target=void\ folosesteCabina(int)
+comment3.text=public\ void\ cabinaOcupata(){\ \ \ //\ \=>\ am\ vrut\ sa\ vad\ daca\ se\ ocupa\ sau\ nu\ cabina.\r\n\ \ \ \ for(int\ x\ \:\ cabinaProba){\r\n\ \ \ \ if(x\ \=\=\ 0\ ){\r\n\ \ \ \ ocupata\ \=\ false;\r\n\ \ \ \ System.out.println(ocupata);\r\n\ \ \ \ }\r\n\ \ \ \ else{\r\n\ \ \ \ ocupata\ \ \=\ true;\ \r\n\ \ \ \ System.out.println(ocupata);\r\n\ \ \ \ }\r\n\ \ \ \ }\r\n}
+comment4.params=nrCabina\ nume\ prenume
+comment4.target=void\ folosesteCabina(int,\ java.lang.String,\ java.lang.String)
+comment5.params=nrCabina
+comment5.target=void\ elibereazaCabina(int)
+comment5.text=@Override\r\n\ \ \ \ public\ void\ folosesteCabina(int\ nrProduse){\ //\ \=>metoda\ care\ utilizeaza\ numarul\ de\ produse\r\n\ \ \ \ \ \ \ \ if(nrProduse\ <\=\ 3\ ){\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(cabinaProba[0]\ \=\=\ 0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Va\ rog\ sa\ ocupati\ cabina\ numarul\ 1.");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cabinaProba[0]\ \=\ 1;\r\n\ \ \ \ \ \ \ \ \ \ \ \ }else{\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(cabinaProba[1]\ \=\=\ 0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Va\ rog\ sa\ ocupati\ cabina\ numarul\ 2.");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cabinaProba[1]\ \=\ 1;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }else{\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(cabinaProba[2]\ \=\=\ 0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Va\ rog\ sa\ ocupati\ cabina\ numarul\ 3.");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ cabinaProba[2]\ \=\ 1;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }else{\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println("Toate\ cabinele\ sunt\ ocupate.\ Va\ rog\ sa\ asteptati");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }else{\r\n\ \ \ \ \ \ \ \ \ \ \ \ try{\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ throw\ new\ PreaMulteProduse();\r\n\ \ \ \ \ \ \ \ \ \ \ \ }catch(Exception\ e){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ e.printStackTrace();\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment6.params=nume\ prenume\ cardReducere
+comment6.target=void\ adaugaCumparator(java.lang.String,\ java.lang.String,\ boolean)
+comment7.params=
+comment7.target=void\ afiseazaCumparator()
+comment8.params=p
+comment8.target=void\ adaugaProdusInStoc(Produse)
+comment9.params=
+comment9.target=void\ afiseazaProduse()
+numComments=16

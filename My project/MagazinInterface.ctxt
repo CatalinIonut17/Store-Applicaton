@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MagazinInterface
+comment1.params=x
+comment1.target=void\ folosesteCabina(int)
+comment2.params=x
+comment2.target=void\ elibereazaCabina(int)
+comment3.params=x\ y\ z
+comment3.target=void\ adaugaCumparator(java.lang.String,\ java.lang.String,\ boolean)
+comment4.params=
+comment4.target=void\ afiseazaCumparator()
+comment5.params=
+comment5.target=void\ afiseazaProduse()
+comment6.params=x\ y\ z
+comment6.target=void\ adaugaProdusePentruCumparator(Produse,\ java.lang.String,\ java.lang.String)
+numComments=7

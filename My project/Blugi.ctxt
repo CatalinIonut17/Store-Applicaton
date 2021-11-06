@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Blugi
+comment1.params=
+comment1.target=Blugi()
+comment2.params=pret\ culoare\ buzunare
+comment2.target=Blugi(double,\ java.lang.String,\ boolean)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
